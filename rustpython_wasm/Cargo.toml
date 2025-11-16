@@ -8,4 +8,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 getrandom = "0.3"
-rustpython-vm = { git = "https://github.com/moreal/RustPython", rev = "5d51df6286a4a4bb0d31fabadcd9af51a5a07be0", default-features = false, features = ["compiler"] }
+rustpython-vm = { git = "https://github.com/RustPython/RustPython", rev = "7c4c1eabf04fe3a26bb4dee4fa1ed8214b8bae7b", default-features = false, features = ["compiler"] }
